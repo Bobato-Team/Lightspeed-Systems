@@ -1,0 +1,319 @@
+2026-04-22 13:17:17.906 INFO [ LS Filter ] version: 1.12.1.0, build: 2025-06-16_17:34:24
+2026-04-22 13:17:17.966 INFO   Customer ID  -> 62-8111-A000
+2026-04-22 13:17:17.966 INFO   Customer SHA -> d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a
+2026-04-22 13:17:17.966 INFO   Environment  -> production
+2026-04-22 13:17:17.966 INFO   Log Level    -> info
+2026-04-22 13:17:17.966 INFO   Log Trusted  -> false
+2026-04-22 13:17:18.297 INFO [httpServer] Listening on HTTPS -> 127.0.0.1:6543
+2026-04-22 13:17:18.402 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 13:17:18.402 WARN [policy.FormatPolicy] Unknown user policy
+2026-04-22 13:17:18.403 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-22 13:17:18.407 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 13:17:18.440 INFO [tcpServer] Listening on -> :3456
+2026-04-22 13:17:18.441 INFO [pacServer] Listening on HTTP -> 127.0.0.1:6544
+2026-04-22 13:17:20.973 INFO [tcpServer.tcpPool] Connections -> 1
+2026-04-22 13:17:21.200 INFO [tcpServer.tcpPool] Connections -> 2
+2026-04-22 13:17:58.841 ERRO [platform.GetSerialNumber] -> exit status 1
+2026-04-22 13:18:01.769 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-22 13:18:01.801 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49695->32.195.245.89:443: use of closed network connection
+2026-04-22 13:18:03.700 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-22 13:33:03.806 ERRO [websocketClient] read error -> read tcp 10.47.240.171:62341->44.242.117.125:443: i/o timeout
+2026-04-22 13:33:04.046 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 13:38:01.252 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 13:41:03.125 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-22 14:02:24.266 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61449->44.240.3.95:443: i/o timeout
+2026-04-22 14:28:35.853 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58529->16.148.150.252:443: i/o timeout
+2026-04-22 14:36:27.654 ERRO [websocketClient] read error -> read tcp 10.47.240.171:52263->54.245.124.34:443: i/o timeout
+2026-04-22 14:53:53.342 ERRO [websocketClient] read error -> read tcp 10.47.240.171:65303->16.147.145.234:443: i/o timeout
+2026-04-22 14:53:54.305 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 15:26:12.053 ERRO [websocketClient] read error -> read tcp 10.47.240.171:52695->184.33.46.145:443: i/o timeout
+2026-04-22 15:31:48.848 ERRO [websocketClient] read error -> read tcp 10.47.240.171:64152->52.26.65.0:443: i/o timeout
+2026-04-22 18:36:33.754 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56461->54.245.124.34:443: i/o timeout
+2026-04-22 18:36:35.166 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-22 18:36:35.273 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-23 07:26:26.613 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 07:26:26.806 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-23 07:26:26.880 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 07:26:27.164 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-23 07:26:28.312 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: getaddrinfow: The requested name is valid, but no data of the requested type was found.
+2026-04-23 07:26:28.654 ERRO [websocketClient] read error -> read tcp 10.47.240.171:64732->44.242.44.83:443: wsarecv: An established connection was aborted by the software in your host machine.
+2026-04-23 07:26:30.050 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-23 07:26:30.223 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-23 07:26:36.315 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-23 07:26:37.994 ERRO [remote.GetHost] category lookup failed -> mtalk.google.com
+2026-04-23 07:26:37.994 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-23 07:28:04.315 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-23 07:28:15.039 ERRO [websocketClient] read error -> read tcp 10.0.0.245:52746->44.240.3.95:443: i/o timeout
+2026-04-23 07:29:30.756 ERRO [websocketClient] read error -> read tcp 10.0.0.245:54010->44.240.3.95:443: i/o timeout
+2026-04-23 07:30:48.359 ERRO [websocketClient] read error -> read tcp 10.0.0.245:50519->16.148.150.252:443: i/o timeout
+2026-04-23 07:34:56.868 ERRO [websocketClient] read error -> read tcp 10.0.0.245:61430->44.230.105.136:443: i/o timeout
+2026-04-23 07:58:23.239 ERRO [websocketClient] read error -> read tcp 10.0.0.245:51446->44.231.181.164:443: i/o timeout
+2026-04-23 07:58:26.825 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 07:58:29.732 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-23 07:58:29.755 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-23 07:58:33.466 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-23 07:58:34.059 ERRO [remote.GetHost] category lookup failed -> mtalk.google.com
+2026-04-23 07:58:34.059 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-23 09:15:15.350 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61590->44.198.135.77:443: i/o timeout
+2026-04-23 09:15:15.745 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 09:42:11.587 ERRO [remote.ytChannelLookup] lookup -> {"query":"query getVideoMeta($itemA: CustomChannelLookupInput!){a: custom_ChannelLookup(item: $itemA) {ls_cat}}","variables":{"itemA":{"channelId":"UC93taQTULQtOSnA6go53WRA"}}}
+2026-04-23 09:42:11.677 ERRO [remote.GetYTChannel] caching -> &{UC93taQTULQtOSnA6go53WRA  0   0}
+2026-04-23 10:04:42.686 ERRO [websocketClient] read error -> read tcp 10.47.240.171:60223->98.83.230.187:443: i/o timeout
+2026-04-23 10:27:11.639 ERRO [websocketClient] read error -> read tcp 10.47.240.171:63825->35.80.103.156:443: i/o timeout
+2026-04-23 10:56:42.060 ERRO [websocketClient] read error -> read tcp 10.47.240.171:54464->35.80.103.156:443: i/o timeout
+2026-04-23 12:23:26.640 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61351->16.148.150.252:443: i/o timeout
+2026-04-23 12:29:54.652 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49601->35.80.103.156:443: i/o timeout
+2026-04-23 13:40:16.345 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56297->54.245.252.84:443: i/o timeout
+2026-04-23 13:40:17.595 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 13:40:17.712 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 13:40:17.780 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-23 13:40:18.269 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-23 14:35:45.722 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59870->54.148.119.22:443: i/o timeout
+2026-04-23 14:35:46.143 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 14:35:55.526 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-23 15:19:39.291 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58883->54.161.238.109:443: i/o timeout
+2026-04-23 15:27:48.660 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53161->35.80.103.156:443: i/o timeout
+2026-04-23 18:28:37.467 ERRO [websocketClient] read error -> read tcp 10.47.240.171:62421->54.69.150.12:443: i/o timeout
+2026-04-23 18:28:38.075 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-23 18:28:38.113 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-24 07:46:15.826 ERRO [websocketClient] read error -> read tcp 10.0.0.245:61266->100.22.86.148:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-24 07:58:08.085 ERRO [websocketClient] read error -> read tcp 10.0.0.245:60271->44.238.44.21:443: i/o timeout
+2026-04-24 07:58:11.194 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 10:05:13.696 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61522->44.238.44.21:443: i/o timeout
+2026-04-24 10:05:25.902 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 10:05:37.018 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-24 10:05:50.199 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-24 10:54:41.236 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53446->44.239.50.216:443: i/o timeout
+2026-04-24 10:54:44.885 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 12:07:16.020 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49405->16.148.150.252:443: i/o timeout
+2026-04-24 12:07:16.100 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 12:07:59.438 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-24 12:35:56.828 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53694->54.69.150.12:443: i/o timeout
+2026-04-24 13:39:40.349 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61886->52.33.63.63:443: i/o timeout
+2026-04-24 13:39:40.681 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 13:39:40.733 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-24 13:39:40.876 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 13:39:40.902 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-24 14:36:06.232 ERRO [websocketClient] read error -> read tcp 10.47.240.171:55978->54.91.154.131:443: i/o timeout
+2026-04-24 14:36:06.562 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 14:56:35.365 ERRO [websocketClient] read error -> read tcp 10.47.240.171:54264->98.90.87.42:443: i/o timeout
+2026-04-24 15:27:58.697 ERRO [websocketClient] read error -> websocket: close 1012: Service restarting
+2026-04-24 18:28:20.031 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49349->54.69.150.12:443: i/o timeout
+2026-04-24 18:28:21.614 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-24 18:28:21.881 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-24 22:10:17.668 ERRO [websocketClient] read error -> read tcp 10.0.0.245:65006->184.32.158.187:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-25 01:11:34.693 ERRO [websocketClient] read error -> read tcp 10.0.0.245:63467->35.165.245.79:443: i/o timeout
+2026-04-25 19:47:42.100 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-25 19:47:42.696 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host (Client.Timeout exceeded while awaiting headers)
+2026-04-25 19:47:42.958 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-25 19:47:43.496 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-25 19:47:43.684 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-25 19:47:50.572 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": read tcp 10.0.0.245:60816->44.234.123.175:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-25 20:27:14.671 ERRO [websocketClient] read error -> read tcp 10.0.0.245:60622->35.165.245.79:443: i/o timeout
+2026-04-25 20:28:22.868 ERRO [websocketClient] read error -> read tcp 10.0.0.245:57059->44.239.50.216:443: i/o timeout
+2026-04-25 20:30:55.594 ERRO [websocketClient] read error -> read tcp 10.0.0.245:64168->52.27.172.24:443: i/o timeout
+2026-04-25 20:32:04.297 ERRO [websocketClient] read error -> read tcp 10.0.0.245:63451->54.69.55.152:443: i/o timeout
+2026-04-25 23:33:07.573 ERRO [websocketClient] read error -> read tcp 10.0.0.245:52184->35.165.166.143:443: i/o timeout
+2026-04-27 08:02:22.508 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 08:02:21.968 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 08:02:23.100 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-27 08:02:23.616 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-27 08:02:25.822 ERRO [websocketClient] read error -> read tcp 10.0.0.245:63460->35.165.245.79:443: wsarecv: An established connection was aborted by the software in your host machine.
+2026-04-27 08:03:04.814 ERRO [websocketClient] read error -> read tcp 10.47.240.171:64092->184.32.158.187:443: i/o timeout
+2026-04-27 08:03:05.401 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 08:03:26.678 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": read tcp 10.47.240.171:64146->44.242.184.236:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-27 08:40:32.975 ERRO [websocketClient] read error -> read tcp 10.47.240.171:62211->54.68.171.91:443: i/o timeout
+2026-04-27 08:40:37.439 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 09:06:31.517 ERRO [websocketClient] read error -> read tcp 10.47.240.171:51821->35.165.245.79:443: i/o timeout
+2026-04-27 09:06:32.303 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 09:10:35.421 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61980->52.33.63.63:443: i/o timeout
+2026-04-27 09:23:12.277 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53413->44.238.112.250:443: i/o timeout
+2026-04-27 09:23:13.118 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 09:23:13.263 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-27 09:23:28.094 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-27 09:46:37.513 ERRO [websocketClient] read error -> read tcp 10.47.240.171:63016->44.240.235.158:443: i/o timeout
+2026-04-27 10:04:27.123 ERRO [websocketClient] read error -> read tcp 10.47.240.171:50630->54.69.150.12:443: i/o timeout
+2026-04-27 10:04:28.577 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 10:27:57.595 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 10:50:30.166 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58533->44.238.112.250:443: i/o timeout
+2026-04-27 10:51:02.494 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59830->35.84.248.10:443: i/o timeout
+2026-04-27 12:07:26.404 ERRO [websocketClient] read error -> read tcp 10.47.240.171:51815->52.27.172.24:443: i/o timeout
+2026-04-27 12:07:39.066 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 12:08:01.226 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 12:08:02.050 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-27 13:39:04.607 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 13:39:04.609 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-27 13:39:05.479 ERRO [websocketClient] read error -> read tcp 10.47.240.171:55786->52.38.33.93:443: i/o timeout
+2026-04-27 13:39:08.130 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 13:39:08.177 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-27 14:07:56.506 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 14:12:56.251 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 14:17:56.558 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 14:22:56.232 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 14:34:47.566 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 14:34:47.072 ERRO [websocketClient] read error -> read tcp 10.47.240.171:62346->54.197.189.185:443: i/o timeout
+2026-04-27 15:22:38.034 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49260->44.218.220.80:443: i/o timeout
+2026-04-27 18:27:36.622 ERRO [websocketClient] read error -> read tcp 10.47.240.171:51566->35.165.245.79:443: i/o timeout
+2026-04-27 18:27:39.244 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-27 18:27:41.101 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-28 08:00:42.509 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-28 08:00:42.652 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-28 08:00:42.922 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-28 08:00:42.946 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-28 08:00:43.872 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-28 08:00:57.319 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-28 08:00:57.361 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-28 08:01:00.586 ERRO [remote.GetHost] category lookup failed -> mtalk.google.com
+2026-04-28 08:01:00.586 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-28 08:01:00.588 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-28 08:01:01.520 ERRO [websocketClient] read error -> read tcp 10.0.0.245:54957->34.209.246.32:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-28 08:01:06.670 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-28 08:01:06.670 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-28 08:01:09.672 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-28 08:01:09.673 ERRO [remote.GetHost] category lookup failed -> config.edge.skype.com
+2026-04-28 08:01:09.674 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-28 08:01:09.674 ERRO [remote.GetHost] category lookup failed -> config.edge.skype.com
+2026-04-28 08:01:09.674 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-28 08:01:09.674 ERRO [remote.GetHost] category lookup failed -> config.edge.skype.com
+2026-04-28 08:01:09.674 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-28 08:01:11.680 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-28 08:01:21.684 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-28 08:01:21.684 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-28 08:01:24.685 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-28 08:01:24.685 ERRO [remote.GetHost] category lookup failed -> config.edge.skype.com
+2026-04-28 08:01:24.685 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-28 08:10:45.471 ERRO [websocketClient] read error -> read tcp 10.47.240.171:50219->35.84.248.10:443: i/o timeout
+2026-04-28 08:11:57.883 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56423->35.84.248.10:443: i/o timeout
+2026-04-28 13:05:37.954 ERRO [websocketClient] read error -> read tcp 10.47.240.171:52582->52.45.132.82:443: i/o timeout
+2026-04-28 13:05:49.244 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-28 13:16:05.808 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: i/o timeout
+2026-04-28 13:16:06.358 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-28 13:16:07.379 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-28 13:32:54.177 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-28 13:37:54.173 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-28 15:16:31.579 ERRO [websocketClient] read error -> websocket: close 1001 (going away): Going away
+2026-04-28 15:28:49.334 ERRO [websocketClient] read error -> read tcp 10.47.240.171:50262->52.38.33.93:443: i/o timeout
+2026-04-28 18:29:29.787 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59593->35.166.25.135:443: i/o timeout
+2026-04-28 18:29:29.957 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-28 18:29:30.216 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-29 07:58:56.007 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 07:58:56.709 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 07:58:56.916 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-29 07:58:56.918 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-29 07:59:14.123 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-29 07:59:14.126 ERRO [remote.post]Post "https://production-categorizations-device-api.lsfilter.com/graphql": dial tcp: lookup production-categorizations-device-api.lsfilter.com: no such host
+2026-04-29 07:59:14.128 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-29 07:59:14.130 ERRO [remote.categoryLookup] gqlCategoryResponse unmarshal error -> unexpected end of JSON input
+2026-04-29 07:59:17.139 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-29 07:59:17.157 ERRO [score.Score] unable to get host category ->unexpected end of JSON input
+2026-04-29 07:59:17.164 ERRO [remote.GetHost] category lookup failed -> mtalk.google.com
+2026-04-29 07:59:17.164 ERRO [remote.GetHost] category lookup failed -> config.edge.skype.com
+2026-04-29 07:59:17.171 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-29 07:59:17.176 ERRO [score.Score] unable to get host category ->category lookup failed
+2026-04-29 07:59:17.348 ERRO [websocketClient] read error -> read tcp 10.0.0.245:61713->35.161.4.145:443: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+2026-04-29 07:59:25.290 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-29 08:24:37.131 ERRO [websocketClient] read error -> read tcp 10.47.240.171:50970->44.238.112.250:443: i/o timeout
+2026-04-29 09:37:47.592 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58719->52.27.159.96:443: i/o timeout
+2026-04-29 09:37:58.752 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 09:37:58.781 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-29 09:37:58.806 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 10:05:54.767 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58288->44.238.112.250:443: i/o timeout
+2026-04-29 10:05:57.545 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 10:53:48.141 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49336->54.70.150.8:443: i/o timeout
+2026-04-29 10:53:55.993 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 12:06:29.166 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56531->44.238.45.146:443: i/o timeout
+2026-04-29 12:06:29.915 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 13:01:27.613 ERRO [websocketClient] read error -> read tcp 10.47.240.171:62707->52.41.192.36:443: i/o timeout
+2026-04-29 13:01:28.184 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 13:01:41.671 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-29 13:07:31.050 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53198->184.34.54.23:443: i/o timeout
+2026-04-29 13:12:18.162 ERRO [websocketClient] read error -> read tcp 10.47.240.171:57800->184.34.183.93:443: i/o timeout
+2026-04-29 13:22:44.775 ERRO [websocketClient] read error -> read tcp 10.47.240.171:65424->35.166.25.135:443: i/o timeout
+2026-04-29 13:36:59.969 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56660->100.20.69.140:443: i/o timeout
+2026-04-29 13:37:01.569 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 13:37:10.874 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-29 13:37:53.931 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 14:35:42.727 ERRO [websocketClient] read error -> read tcp 10.47.240.171:51066->44.231.176.224:443: i/o timeout
+2026-04-29 15:21:40.953 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61870->16.146.214.165:443: i/o timeout
+2026-04-29 15:21:41.968 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 15:21:42.185 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-29 17:54:20.695 ERRO [websocketClient] read error -> read tcp 10.47.240.171:54100->52.32.118.114:443: i/o timeout
+2026-04-29 17:54:20.976 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-29 17:54:21.409 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-29 19:55:00.799 ERRO [websocketClient] read error -> read tcp 10.0.0.245:64892->184.34.54.23:443: i/o timeout
+2026-04-29 19:55:02.089 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": read tcp 10.0.0.245:57901->44.234.123.148:443: wsarecv: An existing connection was forcibly closed by the remote host.
+2026-04-30 07:59:27.470 ERRO [websocketClient] read error -> read tcp 10.0.0.245:62394->34.209.200.47:443: i/o timeout
+2026-04-30 07:59:31.458 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-04-30 07:59:32.742 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-30 07:59:33.435 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2026-04-30 07:59:37.351 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-30 07:59:37.413 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 07:59:37.413 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-30 07:59:38.097 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 09:29:06.306 ERRO [websocketClient] read error -> read tcp 10.47.240.171:54080->100.23.49.157:443: i/o timeout
+2026-04-30 09:29:12.429 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 09:29:12.524 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-30 09:33:26.798 ERRO [websocketClient] read error -> read tcp 10.47.240.171:54767->100.23.49.157:443: i/o timeout
+2026-04-30 09:33:48.311 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59181->35.161.84.176:443: i/o timeout
+2026-04-30 09:37:43.175 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61493->44.233.58.100:443: i/o timeout
+2026-04-30 09:40:25.442 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53762->44.233.58.100:443: i/o timeout
+2026-04-30 09:40:39.784 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-30 10:04:26.830 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53621->100.23.49.157:443: i/o timeout
+2026-04-30 10:04:29.106 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 10:04:41.262 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-04-30 10:10:27.172 ERRO [websocketClient] read error -> read tcp 10.47.240.171:51647->100.20.69.140:443: i/o timeout
+2026-04-30 10:43:01.482 ERRO [websocketClient] read error -> read tcp 10.47.240.171:58573->184.34.54.23:443: i/o timeout
+2026-04-30 10:43:06.097 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 10:54:29.583 ERRO [websocketClient] read error -> read tcp 10.47.240.171:49348->54.184.179.25:443: i/o timeout
+2026-04-30 10:54:30.683 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 12:06:49.368 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 12:06:49.370 ERRO [websocketClient] read error -> read tcp 10.47.240.171:53307->52.37.144.36:443: i/o timeout
+2026-04-30 13:39:11.286 ERRO [websocketClient] read error -> read tcp 10.47.240.171:57759->34.209.200.47:443: i/o timeout
+2026-04-30 13:39:15.150 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 13:39:15.257 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 13:39:15.992 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-04-30 13:39:16.199 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-04-30 17:30:16.387 ERRO [websocketClient] read error -> read tcp 10.47.240.171:57148->98.89.169.222:443: i/o timeout
+2026-04-30 17:30:19.406 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-04-30 17:30:19.537 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-05-01 07:39:23.645 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 07:39:23.998 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-05-01 07:39:24.967 ERRO [license.requestLicense] Error reading response -> Get "https://devices.filter.relay.school/licenses": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 07:39:24.967 ERRO [license.getLicenses] Unmarshal error -> unexpected end of JSON input
+2026-05-01 07:59:29.428 ERRO [websocketClient] read error -> read tcp 10.0.0.245:51295->16.146.214.165:443: i/o timeout
+2026-05-01 07:59:33.774 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 09:10:37.914 ERRO [websocketClient] read error -> read tcp 10.47.240.171:57385->184.34.183.93:443: i/o timeout
+2026-05-01 09:10:39.195 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 09:14:41.637 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59629->184.32.91.154:443: i/o timeout
+2026-05-01 10:05:15.648 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59356->35.161.4.145:443: i/o timeout
+2026-05-01 10:05:16.643 ERRO [utils.getUpdate] error -> Get "https://lsrelay-extensions-production.s3.amazonaws.com/relay-win/d59563cb0dd1b0f8c9d319bb7d04288a7243c607e75f20d9fe44a72ebe8c502a/SmartAgentx64.json": dial tcp: lookup lsrelay-extensions-production.s3.amazonaws.com: no such host
+2026-05-01 10:05:16.716 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 10:54:31.732 ERRO [websocketClient] read error -> read tcp 10.47.240.171:64195->184.34.183.93:443: i/o timeout
+2026-05-01 10:54:32.390 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 10:57:49.623 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59221->184.34.183.93:443: i/o timeout
+2026-05-01 10:57:59.872 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 10:58:05.558 ERRO [report.sendSQS] error -> RequestError: send request failed
+caused by: Post "https://sqs.us-west-2.amazonaws.com/": dial tcp: lookup sqs.us-west-2.amazonaws.com: no such host
+2026-05-01 11:01:04.897 ERRO [websocketClient] read error -> read tcp 10.47.240.171:61956->35.160.141.140:443: i/o timeout
+2026-05-01 11:29:05.220 ERRO [websocketClient] read error -> read tcp 10.47.240.171:50944->184.32.91.154:443: i/o timeout
+2026-05-01 12:07:41.069 ERRO [websocketClient] read error -> read tcp 10.47.240.171:56478->52.32.202.104:443: i/o timeout
+2026-05-01 12:07:53.580 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
+2026-05-01 12:34:48.818 ERRO [websocketClient] read error -> read tcp 10.47.240.171:59882->44.239.217.237:443: i/o timeout
+2026-05-01 12:44:21.313 ERRO [policy.requestPolicy] Error reading response -> Post "https://devices.filter.relay.school/filter/sa-win/v2/user_policy": dial tcp: lookup devices.filter.relay.school: no such host
