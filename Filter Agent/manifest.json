@@ -1,0 +1,73 @@
+{
+  "name": "filter-agent",
+  "version": "3.2.4.3",
+  "ProductCode": "a2c51efc-e1e0-4450-adb0-d14cb6ae5552",
+  "// comment_1": "To update this ProductCode, please run the New-Product-Guid script",
+  "components": [
+    {
+      "project": "lsconfig",
+      "version": "1.2.1",
+      "file": "lsconfig.json"
+    },
+    {
+      "project": "lsfilter",
+      "version": "1.2.0",
+      "file": "ExtensionManifest_Chrome.json"
+    },
+    {
+      "project": "lsfilter",
+      "version": "1.2.0",
+      "file": "ExtensionManifest_Edge.json"
+    },
+    {
+      "project": "lsfilter",
+      "version": "1.2.0",
+      "file": "ExtensionManifest_Firefox.json"
+    },
+    {
+      "project": "lsfilter",
+      "version": "1.12.1.0",
+      "file": "lsfilter.exe"
+    },
+    {
+      "project": "lsfilter",
+      "version": "1.12.1.0",
+      "file": "lsfilter_arm64.exe"
+    },
+    {
+      "project": "lsproxy",
+      "version": "3.0.4.19",
+      "file": "lsproxy.exe"
+    },
+    {
+      "project": "lsproxy",
+      "version": "3.0.4.19",
+      "file": "lsproxy_arm64.exe"
+    },
+    {
+      "project": "makeca",
+      "version": "1.2.1",
+      "file": "makeca.exe"
+    },
+    {
+      "project": "lsdriverx64",
+      "version": "3.2.0.2",
+      "file": "LSSADrv.cat"
+    },
+    {
+      "project": "lsdriverx64",
+      "version": "3.2.0.2",
+      "file": "LSSADrv.inf"
+    },
+    {
+      "project": "lsdriverx64",
+      "version": "3.2.0.2",
+      "file": "LSSADrv.x64.sys"
+    },
+    {
+      "project": "lsdriverARM64",
+      "version": "3.2.0.2",
+      "file": "LSSADrv.Arm64.sys"
+    }
+  ]
+}
