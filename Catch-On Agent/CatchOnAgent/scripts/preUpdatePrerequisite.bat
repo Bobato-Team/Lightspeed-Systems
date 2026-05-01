@@ -1,0 +1,1 @@
+cmd /c start /min "" powershell start-process UpdateAutoUpdate.bat -verb runas -WindowStyle Hidden

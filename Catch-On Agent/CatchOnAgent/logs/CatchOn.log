@@ -1,0 +1,53 @@
+
+[Thu 12/18/2025 13:51:01.00]: Lightspeed Insight Agent Installer 3.13.0.16 started
+             
+[Thu 12/18/2025 13:51:03.19]: Npcap install started 
+ 
+[Thu 12/18/2025 13:51:06.64]: Npcap has been successfully installed. 
+ 
+[Thu 12/18/2025 13:51:16.44]: Installing Lightspeed Insight Agent... 
+ 
+[Thu 12/18/2025 13:51:22.13]: Starting Lightspeed Insight Agent... 
+ 
+[Thu 12/18/2025 13:51:22.21]: NET Start message: 
+ 
+The Lightspeed Insight Agent service is starting.
+The Lightspeed Insight Agent service was started successfully.
+
+Lightspeed Insight Agent version 3.13.0
+
+[Thu 12/18/2025 13:51:25.00]: Lightspeed  Insight Agent Installer finished
+            [Thu 12/18/2025 13:51:28]: statusCode: 200
+[Thu 12/18/2025 13:51:28]: 200 OK hitting validation server... skipping restart of the AutoConfig service
+
+                [Wed 04/29/2026 13:18:52.00]: Update found. Downloading the update...
+            
+[Wed 04/29/2026 13:18:57.00]: Lightspeed Insight Agent Installer 3.13.1.17 started
+             
+[Wed 04/29/2026 13:19:01.47]: Npcap install started 
+ 
+ 
+[Wed 04/29/2026 13:19:04.72]: Stopping Lightspeed Insight Agent... 
+ 
+[Wed 04/29/2026 13:19:04.72]: NET Stop message: 
+ 
+.
+The Lightspeed Insight Agent service was stopped successfully.
+
+[Wed 04/29/2026 13:19:07.33]: Uninstalling Lightspeed Insight Agent... 
+ 
+[Wed 04/29/2026 13:19:09.39]: Installing Lightspeed Insight Agent... 
+ 
+[Wed 04/29/2026 13:19:14.85]: Starting Lightspeed Insight Agent... 
+ 
+[Wed 04/29/2026 13:19:14.97]: NET Start message: 
+ 
+The Lightspeed Insight Agent service is starting.
+The Lightspeed Insight Agent service was started successfully.
+
+Lightspeed Insight Agent version 3.13.1
+
+[Wed 04/29/2026 13:19:20.00]: Lightspeed  Insight Agent Installer finished
+            [Wed 04/29/2026 13:19:35]: statusCode: 200
+            [Wed 04/29/2026 13:19:35]: 200 OK hitting validation server... skipping restart of the AutoConfig service
+                    
