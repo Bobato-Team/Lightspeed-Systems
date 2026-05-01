@@ -1,0 +1,13 @@
+2026-04-17 10:55:01 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - Lightspeed Classroom Agent Session 1, Version 3.7.4.8
+2026-04-17 10:55:02 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - agent_platform: Windows 11, OS build 26100.8037, Processor Type: x64
+2026-04-17 11:09:42 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - Lightspeed Classroom Agent Session 1, Version 3.7.4.8
+2026-04-17 11:09:42 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - agent_platform: Windows 11, OS build 26100.8037, Processor Type: x64
+2026-04-17 12:27:39 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.Bgw_DoWork - Exception in ReportUrlsVistedModule.Update
+EXCEPTION OCCURRED:System.Net.WebException Unable to connect to the remote server System.IO.Stream GetRequestStream(System.Net.TransportContext ByRef)    at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at ClassroomWindows.StudentPolicyApi.ReportUrlsVisited()
+   at ClassroomWindows.ReportUrlsVistedModule.Update(BackgroundWorker bgw, Double deltaTime)
+   at HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.Bgw_DoWork(Object sender, Object args)
+SocketException A socket operation was attempted to an unreachable host 44.240.241.60:443 Void DoConnect(System.Net.EndPoint, System.Net.SocketAddress)
+2026-04-17 14:47:55 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - Lightspeed Classroom Agent Session 1, Version 3.7.4.8
+2026-04-17 14:47:55 ERROR HCkvTUYMKqIDHA6IeBH.bqcU2OY70IGV3tN5FBF.e2RYPpEFvj - agent_platform: Windows 11, OS build 26100.8037, Processor Type: x64

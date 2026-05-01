@@ -1,0 +1,6 @@
+2026-04-30 08:00:29 ERROR EEm7qVX0ZMqE4gaFppW.boybdoXWruhjvv7W3NO.Gm8XdoUD4F - Lightspeed Classroom Agent Session 1, Version 3.7.7.3
+2026-04-30 08:00:29 ERROR EEm7qVX0ZMqE4gaFppW.boybdoXWruhjvv7W3NO.Gm8XdoUD4F - agent_platform: Windows 11, OS build 26100.8037, Processor Type: x64
+2026-04-30 08:00:55 ERROR EEm7qVX0ZMqE4gaFppW.boybdoXWruhjvv7W3NO.Gm8XdoUD4F - Lightspeed Classroom Agent Session 1, Version 3.7.7.3
+2026-04-30 08:00:55 ERROR EEm7qVX0ZMqE4gaFppW.boybdoXWruhjvv7W3NO.Gm8XdoUD4F - agent_platform: Windows 11, OS build 26100.8037, Processor Type: x64
+2026-04-30 10:43:33 ERROR ClassroomWindows.WebRtcNative.IdD7C6ZTR0 - Error = Failed to set remote answer sdp: Called in wrong state: kStable
+2026-04-30 10:43:33 ERROR ClassroomWindows.WebRTCModule+WebRtcSession.WCxCAIYkMC - OnFailure: Session ID = TCH::TI6HX-lwb7::STU::gx9bsdITdk, failure = Failed to set remote answer sdp: Called in wrong state: kStable
