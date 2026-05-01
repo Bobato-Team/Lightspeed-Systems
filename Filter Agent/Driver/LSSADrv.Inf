@@ -1,0 +1,153 @@
+; ----------------------------------------------------------------------------
+;  LSSADrv.inf
+;
+;  Release Version
+;
+; see - INF Validation Errors and Warnings - Starting in Visual Studio 2015 with WDK 10,
+;		https://learn.microsoft.com/en-us/windows-hardware/drivers/devtest/inf-validation-errors-and-warnings
+;
+; and   Creating a new primitive driver - new behaviour introduced with Windows 10 version 1903 and later:
+;		https://docs.microsoft.com/en-us/windows-hardware/drivers/develop/creating-a-primitive-driver
+;       
+;  Copyright (c) 2025, Lightspeed Systems
+; ----------------------------------------------------------------------------
+
+[Version]
+PnpLockdown=1
+Signature = "$Windows NT$"
+Class = "ActivityMonitor"							;This is determined by the work this filter driver does
+ClassGuid = {b86dff51-a31e-4bac-b3cf-e8cfe75c9fc2}	;This value is determined by the Class
+DriverPackageType = FileSystemFilter
+Provider = %Lightspeed%
+CatalogFile = LSSADrv.cat							; A CatalogFile entry is required for a WHQL signature.
+DriverVer = 06/19/2025,3.2.0.2	;This driver date and version are replaced by the build.
+
+DriverPackageDisplayName = ServiceDescription 
+
+;;[Manufacturer]
+;;%Lightspeed% = SA_LSSADrv,ntamd64,NTarm64
+
+;;[SA_LSSADrv.ntamd64]
+;;%ServiceDescription% = DefaultInstall.ntamd64, SA_LSSADrv
+
+;;[SA_LSSADrv.NTarm64]
+;;%ServiceDescription% = DefaultInstall.NTarm64, SA_LSSADrv
+
+; -----------------
+; Install sections
+; -----------------
+[DefaultInstall.ntamd64]
+OptionDesc = %ServiceDescription%
+CopyFiles = FilterAgent.CopyDriverFiles.ntamd64
+
+[DefaultInstall.NTarm64]
+OptionDesc = %ServiceDescription%
+CopyFiles = FilterAgent.CopyDriverFiles.NTarm64
+
+[SourceDisksNames]
+1=%DiskId%
+
+[SourceDisksFiles]
+LSSADrv.x64.sys=1
+LSSADrv.arm64.sys=1
+
+
+
+[DestinationDirs]
+; dirID 12 = %windir%\system32\drivers
+DefaultDestDir = 12
+FilterAgent.CopyDriverFiles.NTarm64 = 12
+FilterAgent.CopyDriverFiles.ntamd64 = 12
+
+; -----------------
+; Install Copy Files
+; -----------------
+[FilterAgent.CopyDriverFiles.ntamd64]]
+LSSADrv.sys,LSSADrv.x64.sys,,2
+
+[FilterAgent.CopyDriverFiles.NTarm64]]
+LSSADrv.sys,LSSADrv.arm64.sys,,2
+
+
+; -----------------
+; Uninstall sections
+; -----------------
+[DefaultUninstall.ntamd64]
+LegacyUninstall=1
+DelFiles = FilterAgent.RemoveDriverFiles
+
+[DefaultUninstall.ntamd64.Services]
+DelService = %ServiceName%,0x200 ; Ensure service is stopped before deleting
+
+[DefaultUninstall.NTarm64]
+LegacyUninstall=1
+DelFiles = FilterAgent.RemoveDriverFiles
+
+[DefaultUninstall.NTarm64.Services]
+DelService = %ServiceName%,0x200 ; Ensure service is stopped before deleting
+
+
+; -----------------
+;Uninstall Remove Files
+; -----------------
+[FilterAgent.RemoveDriverFiles]
+LSSADrv.sys
+
+
+; ----------------------------
+; Service installation section
+; ----------------------------
+[DefaultInstall.ntamd64.Services]
+AddService = %ServiceName%,,FilterAgent.Service
+
+
+[DefaultInstall.NTarm64.Services]
+AddService = %ServiceName%,,FilterAgent.Service
+
+
+;
+; Services Section
+;
+[FilterAgent.Service]
+DisplayName = %ServiceName%
+Description = %ServiceDescription%
+ServiceBinary = %12%\LSSADrv.sys
+Dependencies = "FltMgr"
+ServiceType = 2  ; SERVICE_FILE_SYSTEM_DRIVER
+StartType = 1    ; SERVICE_SYSTEM_START
+ErrorControl = 1 ; SERVICE_ERROR_NORMAL
+LoadOrderGroup = NetworkProvider
+AddReg = FilterAgent.ServiceRegistry
+
+;
+; Registry Modifications
+;
+[FilterAgent.ServiceRegistry]
+HKR,Instances,DefaultInstance,0x00000000,%DefaultInstance%
+HKR,Instances\%Instance1.Name%,Altitude,0x00000000,%Instance1.Altitude%
+HKR,Instances\%Instance1.Name%,Flags,0x00010001,%Instance1.Flags%
+
+; -----------------
+; String Section
+; -----------------
+[Strings]
+Lightspeed = "Lightspeed Systems"
+ServiceDescription = "Lightspeed Filter Agent"
+ServiceName = LSSADrv
+DiskId = "Lightspeed Filter Agent Installation Disk"
+
+;Instances specific information.
+DefaultInstance = LSSADrv
+Instance1.Name = LSSADrv
+Instance1.Altitude = 328300.1    ;  assigned by Microsoft for LSSADrv
+
+; 0x0 = Allow all attachments
+; 0x1 = Suppress automatic attachments
+Instance1.Flags = 0x0
+
+; Registry contants:
+REG_SZ = 0x00000
+REG_MULTI_SZ = 0x10000
+REG_EXPAND_SZ = 0x20000
+REG_BINARY = 0x00001
+REG_DWORD = 0x10001
