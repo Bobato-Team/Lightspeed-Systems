@@ -1,0 +1,140 @@
+2026-02-03 10:09:25.635 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-03 10:09:25.674 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-03 10:09:31.569 INFO [SendReport] success
+2026-02-05 08:00:46.307 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-05 08:00:46.329 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-05 08:00:50.095 INFO [SendReport] success
+2026-02-09 08:07:11.753 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-09 08:07:11.889 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-09 08:07:17.552 INFO [SendReport] success
+2026-02-10 08:10:40.964 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-10 08:10:40.981 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-10 08:10:45.589 INFO [SendReport] success
+2026-02-11 08:10:58.865 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-11 08:10:58.890 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-11 08:11:03.542 INFO [SendReport] success
+2026-02-13 08:10:53.052 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-13 08:10:53.070 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-13 08:10:57.309 INFO [SendReport] success
+2026-02-17 08:13:55.166 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-17 08:13:55.176 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-17 08:14:00.700 INFO [SendReport] success
+2026-02-19 08:06:52.036 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-19 08:06:52.047 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-19 08:06:54.966 INFO [SendReport] success
+2026-02-20 08:10:03.610 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-20 08:10:03.615 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-20 08:10:05.641 INFO [SendReport] success
+2026-02-23 08:00:36.379 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-23 08:00:36.389 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-23 08:00:40.420 INFO [SendReport] success
+2026-02-24 08:02:48.833 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-24 08:02:48.861 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-24 08:02:52.223 INFO [SendReport] success
+2026-02-26 08:02:55.328 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-02-26 08:02:55.340 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-02-26 08:02:58.448 INFO [SendReport] success
+2026-03-02 08:03:59.967 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-02 08:03:59.995 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-02 08:04:22.318 INFO [SendReport] success
+2026-03-04 07:16:25.845 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-04 07:16:25.849 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-04 08:00:31.626 ERRO [SendReport] error: Post "https://agent-backend-api-production.lightspeedsystems.com/graphql": dial tcp: lookup agent-backend-api-production.lightspeedsystems.com: no such host
+2026-03-04 08:00:46.774 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-04 08:01:22.687 INFO [SendReport] success
+2026-03-05 08:06:13.403 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-05 08:06:13.413 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-05 08:06:17.041 INFO [SendReport] success
+2026-03-06 08:09:02.111 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-06 08:09:02.171 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-06 08:09:13.241 INFO [SendReport] success
+2026-03-16 07:36:10.976 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-16 07:36:10.981 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-16 07:36:15.971 INFO [SendReport] success
+2026-03-17 08:08:31.671 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-17 08:08:31.803 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-17 08:08:49.605 INFO [SendReport] success
+2026-03-18 10:13:50.225 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-18 10:13:50.233 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-18 10:13:53.280 INFO [SendReport] success
+2026-03-19 10:18:09.373 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-19 10:18:10.113 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-19 10:18:36.698 INFO [SendReport] success
+2026-03-22 16:18:10.532 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-22 16:18:10.684 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-22 16:18:19.016 INFO [SendReport] success
+2026-03-24 07:34:32.098 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-24 07:34:32.111 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-24 07:34:39.141 INFO [SendReport] success
+2026-03-25 08:01:19.053 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-25 08:01:19.078 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-25 08:01:23.203 INFO [SendReport] success
+2026-03-26 08:01:23.546 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-26 08:01:23.554 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-26 08:01:26.268 INFO [SendReport] success
+2026-03-27 08:10:07.569 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-27 08:10:07.724 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-27 08:10:14.417 INFO [SendReport] success
+2026-03-30 08:02:30.952 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-30 08:02:30.963 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-30 08:02:34.716 INFO [SendReport] success
+2026-03-31 08:09:23.047 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-03-31 08:09:23.060 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-03-31 08:09:25.864 INFO [SendReport] success
+2026-04-01 08:10:06.940 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-01 08:10:06.961 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-01 08:10:11.090 INFO [SendReport] success
+2026-04-02 08:13:10.448 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-02 08:13:10.475 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-02 08:13:16.781 INFO [SendReport] success
+2026-04-07 08:01:34.947 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-07 08:01:34.967 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-07 08:01:38.902 INFO [SendReport] success
+2026-04-08 08:02:34.581 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-08 08:02:34.637 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-08 08:02:37.191 INFO [SendReport] success
+2026-04-10 08:05:28.705 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-10 08:05:28.724 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-10 08:05:31.939 INFO [SendReport] success
+2026-04-13 08:02:15.243 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-13 08:02:15.254 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-13 08:02:18.589 INFO [SendReport] success
+2026-04-14 08:02:15.657 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-14 08:02:15.677 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-14 08:02:25.073 INFO [SendReport] success
+2026-04-15 08:04:11.213 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-15 08:04:11.235 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-15 08:04:18.649 INFO [SendReport] success
+2026-04-16 08:34:47.339 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-16 08:34:47.359 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-16 08:34:50.103 INFO [SendReport] success
+2026-04-17 10:55:05.039 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-17 10:55:05.049 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-17 10:55:08.252 INFO [SendReport] success
+2026-04-20 09:50:54.970 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-20 09:50:54.990 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-20 09:50:57.182 INFO [SendReport] success
+2026-04-22 08:09:26.998 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-22 08:09:27.005 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-22 08:09:29.871 INFO [SendReport] success
+2026-04-23 08:10:05.434 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-23 08:10:05.454 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-23 08:10:10.322 INFO [SendReport] success
+2026-04-24 08:10:06.967 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-24 08:10:06.983 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-24 08:10:11.277 INFO [SendReport] success
+2026-04-25 19:48:30.912 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-25 19:48:30.919 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-25 19:48:34.252 INFO [SendReport] success
+2026-04-27 08:03:54.774 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-27 08:03:54.908 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-27 08:03:59.158 INFO [SendReport] success
+2026-04-29 08:00:30.249 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-29 08:00:30.508 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-29 08:00:40.714 INFO [SendReport] success
+2026-04-30 08:00:39.114 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-04-30 08:00:39.125 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-04-30 08:00:44.940 INFO [SendReport] success
+2026-05-01 08:10:09.138 INFO [ LS Telemetry ] version: 1.1.4.0, build: 2025-07-31_18:39:10
+2026-05-01 08:10:09.418 ERRO [telemetry.getChromeVersion] Chrome version not found
+2026-05-01 08:10:21.392 INFO [SendReport] success
